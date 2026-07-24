@@ -15,7 +15,7 @@ def check_book(book_id):
     book_id= int(book_id)
     if book_id on books:
       book=books[book_id]
-      return f"Book: {book['name']}, Status: {book['status']"}
+      return f"Book: {book['name']}, Status: {book['status']}"
     return "Book not available at the library"
 
   except ValueError:
